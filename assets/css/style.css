@@ -1,0 +1,272 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0px;
+    margin-right: 0px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+}
+
+.name{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.navbar-items a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: middle;
+    padding-top: 5%;
+}
+
+.navbar-items a:hover{
+    background-color: #ddd;
+    color: black;
+    height: 25px;
+}
+
+.right{
+    float: right;
+}
+
+/* BACKGROUND IMAGE */
+
+.container{
+    position: relative;
+}
+
+.background-img{
+    height: 250px;
+    width: 100%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.text-block-intro{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* About me */
+
+.aboutme-container h2{
+    display: inline-flex;
+    width: 25%;
+    justify-content: right;
+    font-size: 35px;
+    vertical-align: top;
+    padding-right: 5%;
+    border-right: 5px solid brown;
+}
+
+.aboutme-container p{
+    display: inline-flex;
+    padding-left: 5%;
+    width: 59%;
+    vertical-align: top;
+    padding-right: 5%;
+}
+
+/* WORK */
+
+.work-container h2{
+    display: inline-flex;
+    width: 25%;
+    justify-content: right;
+    font-size: 35px;
+    vertical-align: top;
+    padding-right: 5%;
+    border-right: 5px solid brown;
+}
+
+/* Project 1 */
+
+.project1-container{
+    position: relative;
+}
+
+.main-project-img{
+    height: 250px;
+    width: 59%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 36%;
+    margin-top: -70px;
+    filter: blur(2px);
+}
+
+.main-project-img:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+.text-box-main-project{
+    position: absolute;
+    bottom: 5px;
+    left: 36%;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Project 2 */
+
+.project-2-3-container{
+    position: relative;
+}
+
+.project2-img{
+    height: 250px;
+    width: 29.5%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 36%;
+    filter: blur(2px);
+}
+
+.project2-img:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+
+
+.text-box-project2{
+    position: absolute;
+    bottom: 5px;
+    left: 36%;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* PROJECT 3 */
+
+
+
+.project3-img{
+    height: 250px;
+    width: 29.2%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+    filter: blur(2px);
+}
+
+.project3-img:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+.text-box-project3{
+    position: absolute;
+    bottom: 5px;
+    left: 66%;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+/* Project 4 */
+
+.project4-img{
+    height: 250px;
+    width: 29.5%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 36%;
+    filter: blur(2px);
+}
+
+.project4-img:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+.text-box-project4{
+    position: absolute;
+    bottom: -64.5%;
+    left: 36%;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Project 5 */
+
+.project5-img{
+    height: 250px;
+    width: 29.2%;
+    border: 5px solid brown;
+    border-right: 5px solid brown;
+    box-sizing: border-box;
+    display: inline;
+    filter: blur(2px);
+}
+
+.project5-img:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+.text-box-project5{
+    position: absolute;
+    bottom: -64.5%;
+    left: 66%;
+    background-color: black;
+    border: 5px solid brown;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Contact Me */
+
+.contact-container h4{
+    display: inline-flex;
+    width: 25%;
+    justify-content: right;
+    font-size: 35px;
+    vertical-align: top;
+    padding-right: 5%;
+    border-right: 5px solid brown;
+}
