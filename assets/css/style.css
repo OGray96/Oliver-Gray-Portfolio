@@ -168,7 +168,7 @@ body{
 
 .text-box-project2{
     position: absolute;
-    bottom: -29%; 
+    bottom: 5px; 
     left: 36%;
     background-color: black;
     border: 5px solid black;
@@ -198,7 +198,7 @@ body{
 
 .text-box-project3{
     position: absolute;
-    bottom: -29%; 
+    bottom: 5px; 
     left: 66%;
     background-color: black;
     border: 5px solid black;
@@ -208,6 +208,10 @@ body{
 }
  
 /* Project 4 */
+
+.project-4-5-container{
+    position: relative;
+}
 
 .project4-img{
     height: 250px;
@@ -227,7 +231,7 @@ body{
 
 .text-box-project4{
     position: absolute;
-    bottom: -64.5%;
+    bottom: 5px;
     left: 36%;
     background-color: black;
     border: 5px solid black;
@@ -255,7 +259,7 @@ body{
 
 .text-box-project5{
     position: absolute;
-    bottom: -64.5%;
+    bottom: 5px;
     left: 66%;
     background-color: black;
     border: 5px solid black;
@@ -284,4 +288,89 @@ body{
     margin-left: 33px;
     padding-left: 90px;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 942px){
+    .aboutme-container h2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+    }
+
+    .aboutme-container p{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .work-container h2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 5px solid black;
+    }
+
+    .project1-container{
+        top: 70px;
+    }
+
+    .main-project-img{
+        margin-left: 20%;
+    }
+
+    .project-2-3-container{
+        left:-16%;
+        top: 70px;
+    }
+    
+    .project-4-5-container{
+        left:-16%;
+        top: 70px;
+    }
+
+    .text-box-main-project{
+        width: 20%;
+        left: 20%;
+    }
+
+    .text-box-project2{
+        width: 15%;
+    }
+
+    .text-box-project3{
+        width: 15%;
+    }
+
+    .text-box-project4{
+        width: 15%;
+    }
+
+    .text-box-project5{
+        width: 15%;
+    }
+
+    .contact-container h4{
+        display: block;
+    }
+
+    .contact-container h4{
+        display: block;
+        width: 100%;
+        border: 5px solid black;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .contact-container a{
+        display: block;
+        width: 100%;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: -60px;
+    }
+
 }
