@@ -1,3 +1,7 @@
+
+
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -54,8 +58,8 @@ body{
 .background-img{
     height: 250px;
     width: 100%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
 }
@@ -65,7 +69,7 @@ body{
     bottom: 20px;
     right: 0;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -80,7 +84,7 @@ body{
     font-size: 35px;
     vertical-align: top;
     padding-right: 5%;
-    border-right: 5px solid brown;
+    border-right: 5px solid black;
 }
 
 .aboutme-container p{
@@ -100,7 +104,7 @@ body{
     font-size: 35px;
     vertical-align: top;
     padding-right: 5%;
-    border-right: 5px solid brown;
+    border-right: 5px solid black;
 }
 
 /* Project 1 */
@@ -112,8 +116,8 @@ body{
 .main-project-img{
     height: 250px;
     width: 59%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
     margin-left: 36%;
@@ -121,17 +125,18 @@ body{
     filter: blur(2px);
 }
 
-.main-project-img:hover{
+.main-project-img:hover, .text-box-main-project{
     cursor: pointer;
     filter: none;
 }
+
 
 .text-box-main-project{
     position: absolute;
     bottom: 5px;
     left: 36%;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -146,15 +151,15 @@ body{
 .project2-img{
     height: 250px;
     width: 29.5%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
     margin-left: 36%;
     filter: blur(2px);
 }
 
-.project2-img:hover{
+.project2-img:hover, .text-box-project2{
     cursor: pointer;
     filter: none;
 }
@@ -163,10 +168,10 @@ body{
 
 .text-box-project2{
     position: absolute;
-    bottom: 5px;
+    bottom: -29%; 
     left: 36%;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -179,24 +184,24 @@ body{
 .project3-img{
     height: 250px;
     width: 29.2%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
     filter: blur(2px);
 }
 
-.project3-img:hover{
+.project3-img:hover, .text-box-project3{
     cursor: pointer;
     filter: none;
 }
 
 .text-box-project3{
     position: absolute;
-    bottom: 5px;
+    bottom: -29%; 
     left: 66%;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -207,15 +212,15 @@ body{
 .project4-img{
     height: 250px;
     width: 29.5%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
     margin-left: 36%;
     filter: blur(2px);
 }
 
-.project4-img:hover{
+.project4-img:hover, .text-box-project4{
     cursor: pointer;
     filter: none;
 }
@@ -225,7 +230,7 @@ body{
     bottom: -64.5%;
     left: 36%;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -236,14 +241,14 @@ body{
 .project5-img{
     height: 250px;
     width: 29.2%;
-    border: 5px solid brown;
-    border-right: 5px solid brown;
+    border: 5px solid black;
+    border-right: 5px solid black;
     box-sizing: border-box;
     display: inline;
     filter: blur(2px);
 }
 
-.project5-img:hover{
+.project5-img:hover, .text-box-project5{
     cursor: pointer;
     filter: none;
 }
@@ -253,7 +258,7 @@ body{
     bottom: -64.5%;
     left: 66%;
     background-color: black;
-    border: 5px solid brown;
+    border: 5px solid black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -268,5 +273,15 @@ body{
     font-size: 35px;
     vertical-align: top;
     padding-right: 5%;
-    border-right: 5px solid brown;
+    border-right: 5px solid black;
+}
+
+.contact-container a{
+    display: inline-flex;
+    padding-left: 5%;
+    vertical-align: top;
+    line-height: 125px;
+    margin-left: 33px;
+    padding-left: 90px;
+    letter-spacing: 2px;
 }
